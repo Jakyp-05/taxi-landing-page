@@ -1,0 +1,30 @@
+.rate {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.rate .container {
+  padding: 50px 0;
+  border-bottom: 2px solid #f1c513;
+}
+
+.rate .container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  padding: 10px;
+}
+
+#customers tr {
+  border: 1px solid #ddd;
+}

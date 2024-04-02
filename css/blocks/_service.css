@@ -1,0 +1,8 @@
+.service {
+  margin: 0;
+}
+
+.service .container {
+  padding: 50px 0;
+  border-bottom: 2px solid #f1c513;
+}

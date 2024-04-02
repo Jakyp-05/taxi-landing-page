@@ -1,0 +1,154 @@
+@media (max-width: 1024px) {
+  .home {
+    max-width: 1024px;
+    width: 100%;
+  }
+
+  .home .container {
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .home-text {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .home .container .banner {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+
+  .home .container .banner img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 992px) {
+  .home {
+    max-width: 992px;
+    width: 100%;
+  }
+
+  .home .container {
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .home-text {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .home .container .banner {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+
+  .home .container .banner img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    max-width: 768px;
+    height: auto;
+    width: 100%;
+  }
+
+  .home .container {
+    max-width: 720px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .home-text {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .home .container .banner {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+  }
+
+  .home .container .banner img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 435px) {
+  .home {
+    max-width: 435px;
+    width: 100%;
+    height: auto;
+  }
+
+  .home .container {
+    max-width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .home-text {
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .home .container .banner {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+  }
+
+  .home .container .banner img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 375px) {
+  .home {
+    max-width: 375px;
+    width: 100%;
+    height: auto;
+  }
+
+  .home .container {
+    max-width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .home-text {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .home .container .banner {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+
+  .home .container .banner img {
+    width: 100%;
+    object-fit: contain;
+  }
+}

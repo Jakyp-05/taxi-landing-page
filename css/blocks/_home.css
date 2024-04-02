@@ -1,0 +1,38 @@
+.home {
+  width: 100%;
+  height: 400px;
+}
+
+.home .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 50px 0;
+  border-bottom: 2px solid #f1c513;
+}
+
+.home-text {
+  max-width: 500px;
+  width: 100%;
+}
+
+.home-text h2 {
+  text-wrap: balance;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.home-text button {
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #f1c513;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-text button:hover{
+    background-color: #ecbf08;
+}

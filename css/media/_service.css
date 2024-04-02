@@ -1,0 +1,54 @@
+@media (max-width: 1024px) {
+  .service {
+    max-width: 1024px;
+    width: 100%;
+  }
+  .service .container {
+    max-width: 960px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .service {
+    max-width: 992px;
+    width: 100%;
+  }
+  .service .container {
+    max-width: 960px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .service {
+    max-width: 768px;
+    width: 100%;
+  }
+  .service .container {
+    max-width: 720px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 435px) {
+  .service {
+    max-width: 435px;
+    width: 100%;
+  }
+  .service .container {
+    max-width: 375px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .service {
+    max-width: 375px;
+    width: 100%;
+  }
+  .service .container {
+    max-width: 320px;
+    width: 100%;
+  }
+}

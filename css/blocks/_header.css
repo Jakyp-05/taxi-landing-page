@@ -1,0 +1,54 @@
+.header {
+  background-color: #f1c513;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 65px;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-weight: 400;
+}
+
+ul li a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    --webkit-transition: all 0.3s ease-in-out;
+    background-color: black;
+}

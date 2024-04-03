@@ -7,6 +7,24 @@
     max-width: 960px;
     width: 100%;
   }
+
+  .service-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .service-card {
+    width: 300px;
+  }
+
+  .service-card-image {
+    max-width: 300px;
+  }
+
+  .service-card-image img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -16,6 +34,24 @@
   }
   .service .container {
     max-width: 960px;
+    width: 100%;
+  }
+
+  .service-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .service-card {
+    width: 300px;
+  }
+
+  .service-card-image {
+    max-width: 300px;
+  }
+
+  .service-card-image img {
     width: 100%;
   }
 }
@@ -29,6 +65,24 @@
     max-width: 720px;
     width: 100%;
   }
+  .service-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .service-card {
+    width: 300px;
+  }
+
+  .service-card-image {
+    max-width: 300px;
+  }
+
+  .service-card-image img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 435px) {
@@ -40,6 +94,23 @@
     max-width: 375px;
     width: 100%;
   }
+  .service-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .service-card {
+    width: 300px;
+  }
+
+  .service-card-image {
+    max-width: 300px;
+  }
+
+  .service-card-image img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -49,6 +120,23 @@
   }
   .service .container {
     max-width: 320px;
+    width: 100%;
+  }
+  .service-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .service-card {
+    width: 300px;
+  }
+
+  .service-card-image {
+    max-width: 300px;
+  }
+
+  .service-card-image img {
     width: 100%;
   }
 }

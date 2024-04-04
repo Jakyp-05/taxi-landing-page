@@ -24,6 +24,13 @@
 
   .service-card-image img {
     width: 100%;
+    filter: none;
+    transform: none;
+  }
+
+  .service-card-image img:hover {
+    filter: none;
+    transform: none;
   }
 }
 

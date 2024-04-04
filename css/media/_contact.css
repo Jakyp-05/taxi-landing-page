@@ -40,12 +40,22 @@
     max-width: 375px;
     width: 100%;
   }
+  .contact-text-value {
+    display: flex;
+    flex-direction: column;
+  }
   .contact-box {
     display: flex;
     flex-direction: column;
     gap: 30px;
     justify-content: center;
     align-items: center;
+  }
+  .contact-pay-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
   }
 }
 

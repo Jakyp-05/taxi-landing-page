@@ -78,6 +78,7 @@
   .header .container {
     max-width: 375px;
     width: 100%;
+    /* padding: 10px 0 0 10px; */
   }
 
   .hamburger {
@@ -127,6 +128,7 @@
     .header .container {
       max-width: 320px;
       width: 100%;
+      padding: 0 10px;
     }
   
     .hamburger {

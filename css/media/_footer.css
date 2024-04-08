@@ -31,13 +31,14 @@
   }
 }
 
-@media (max-width: 435px) {
+@media (max-width: 425px) {
   .footer {
     max-width: 435px;
     width: 100%;
+    margin: 0;
   }
   .footer .container {
-    max-width: 375px;
+    max-width: 360px;
     width: 100%;
   }
 }
@@ -46,9 +47,10 @@
   .footer {
     max-width: 375px;
     width: 100%;
+    margin: 0;
   }
   .footer .container {
-    max-width: 320px;
+    max-width: 300px;
     width: 100%;
   }
 }

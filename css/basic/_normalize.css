@@ -20,7 +20,7 @@ body {
 }
 
 .main {
-  margin-top: 65px;
+  padding-top: 60px;
 }
 
 a {
@@ -48,4 +48,8 @@ textarea {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+section {
+  padding-top: 20px;
 }

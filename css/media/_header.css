@@ -54,7 +54,7 @@
     gap: 0;
     flex-direction: column;
     background-color: #f1c513;
-    width: 300px;
+    width: 100%;
     padding: 20px;
     text-align: center;
     transition: 0.3s;
@@ -99,11 +99,11 @@
   .menu {
     position: fixed;
     top: 65px;
-    left: -100%;
+    /* left: -100%; */
     gap: 0;
     flex-direction: column;
     background-color: #f1c513;
-    width: 300px;
+    width: 100%;
     padding: 20px;
     text-align: center;
     transition: 0.3s;
@@ -152,7 +152,7 @@
       gap: 0;
       flex-direction: column;
       background-color: #f1c513;
-      width: 300px;
+      width: 100%;
       padding: 20px;
       text-align: center;
       transition: 0.3s;

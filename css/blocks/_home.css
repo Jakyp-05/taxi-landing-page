@@ -24,15 +24,15 @@
 }
 
 .home-text button {
-    width: 150px;
-    height: 40px;
-    border-radius: 3px;
-    background-color: #f1c513;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #f1c513;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.home-text button:hover{
-    background-color: #ecbf08;
+.home-text button:hover {
+  background-color: #d3aa08;
 }

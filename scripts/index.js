@@ -1,3 +1,6 @@
+import { Rate } from "../data/rate.js";
+import { Service } from "../data/service.js";
+
 document.getElementById("action-button").onclick = function () {
   document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
 };

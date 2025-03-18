@@ -1,6 +1,12 @@
 import { Rate } from "../data/rate.js";
 import { Service } from "../data/service.js";
 
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".menu");
+let topButton = document.getElementById("action-top");
+const serviceBox = document.querySelector(".service-box");
+const customersRate = document.getElementById("customers");
+
 document.getElementById("action-button").onclick = function () {
   document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
 };
@@ -14,8 +20,6 @@ for (let i = 0; i < links.length; i++) {
   };
 }
 
-let topButton = document.getElementById("action-top");
-
 if (topButton) {
   topButton.onclick = () => {
     window.scrollTo({
@@ -24,9 +28,6 @@ if (topButton) {
     });
   };
 }
-
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".menu");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -39,3 +40,27 @@ document.querySelectorAll(".menu-item > a").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
+
+let serviceMap = Service.map((service) => {
+  return `
+    <li class="service-card">
+      <div class="service-card-image">
+        <img src="${service.image}" alt="card image" loading="lazy" />
+      </div>
+      <p>${service.text}</p>
+    </li>
+  `;
+});
+
+serviceBox.innerHTML += serviceMap.join("");
+
+let customersRateMap = Rate.map((rate) => {
+  return `
+    <tr>
+      <td>${rate.rateText}</td>
+      <td>${rate.ratePrice}</td>
+    </tr>
+  `;
+});
+
+customersRate.innerHTML += customersRateMap.join("");

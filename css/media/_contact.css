@@ -1,71 +1,12 @@
-@media (max-width: 1024px) {
-  .contact {
-    max-width: 1024px;
-    width: 100%;
-  }
-  .contact .container {
-    max-width: 960px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 992px) {
-  .contact {
-    max-width: 992px;
-    width: 100%;
-  }
-  .contact .container {
-    max-width: 960px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .contact {
-    max-width: 768px;
-    width: 100%;
-  }
-  .contact .container {
-    max-width: 720px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 435px) {
-  .contact {
-    max-width: 435px;
-    width: 100%;
-  }
-  .contact .container {
-    max-width: 375px;
-    width: 100%;
-  }
+@media only screen and (max-width: 1024px) {
   .contact-text-value {
     display: flex;
     flex-direction: column;
   }
-  .contact-box {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-  }
   .contact-pay-info {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 50px;
-  }
-}
-
-@media (max-width: 375px) {
-  .contact {
-    max-width: 375px;
-    width: 100%;
-  }
-  .contact .container {
-    max-width: 320px;
-    width: 100%;
+    row-gap: 20px;
+    padding: 0 20px;
   }
 }

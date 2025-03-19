@@ -1,149 +1,31 @@
-@media (max-width: 1024px) {
-  .service {
-    max-width: 1024px;
-    width: 100%;
-  }
-  .service .container {
-    max-width: 960px;
-    width: 100%;
-  }
-
+@media only screen and (max-width: 340px) {
   .service-box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  .service-card {
-    width: 300px;
-  }
-
-  .service-card-image {
-    max-width: 300px;
-  }
-
-  .service-card-image img {
-    width: 100%;
-    filter: none;
-    transform: none;
-  }
-
-  .service-card-image img:hover {
-    filter: none;
-    transform: none;
+    padding: 20px;
   }
 }
 
-@media (max-width: 992px) {
-  .service {
-    max-width: 992px;
-    width: 100%;
-  }
-  .service .container {
-    max-width: 960px;
-    width: 100%;
-  }
-
+@media only screen and (max-width: 768px) {
   .service-box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  .service-card {
-    width: 300px;
-  }
-
-  .service-card-image {
-    max-width: 300px;
-  }
-
-  .service-card-image img {
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
   }
 }
 
-@media (max-width: 768px) {
-  .service {
-    max-width: 768px;
-    width: 100%;
-  }
-  .service .container {
-    max-width: 720px;
-    width: 100%;
-  }
+@media screen and (min-width: 768px) and (max-width: 960px) {
   .service-box {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  .service-card {
-    width: 300px;
-  }
-
-  .service-card-image {
-    max-width: 300px;
-  }
-
-  .service-card-image img {
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
   }
 }
 
-@media (max-width: 435px) {
-  .service {
-    max-width: 435px;
-    width: 100%;
-  }
-  .service .container {
-    max-width: 375px;
-    width: 100%;
-  }
+@media screen and (min-width: 960px) and (max-width: 1024px) {
   .service-box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  .service-card {
-    width: 300px;
-  }
-
-  .service-card-image {
-    max-width: 300px;
-  }
-
-  .service-card-image img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 375px) {
-  .service {
-    max-width: 375px;
-    width: 100%;
-  }
-  .service .container {
-    max-width: 320px;
-    width: 100%;
-  }
-  .service-box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  .service-card {
-    width: 300px;
-  }
-
-  .service-card-image {
-    max-width: 300px;
-  }
-
-  .service-card-image img {
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding: 20px;
+    gap: 20px;
   }
 }
